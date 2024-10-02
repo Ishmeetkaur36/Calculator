@@ -34,7 +34,7 @@ input {
     margin: 10px;
     background: transparent;
     box-shadow: 0p 3px 15px rgbs(84, 84, 84, 0.1);
-    font-size: 40px;
+    font-size: 45px;
     text-align: right;
     cursor: pointer;
     color: white;
@@ -57,8 +57,16 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #9f9f9f;
+}
+
 .right_operand {
     background-color: #fb7c14;
+}
+
+.right_operand:hover {
+    background-color: #f79b4f;
 }
 
 .top {
